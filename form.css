@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(174, 84, 230);
+}
+
+.x {
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+#rf {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.n {
+    margin-bottom: 10px;
+}
+
+.e {
+    margin-bottom: 10px;
+}
+
+.p {
+    margin-bottom: 10px;
+}
+
+.n0 {
+    margin-bottom: 10px;
+}
+
+.m {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.f {
+    margin-bottom: 10px;
+}
+
+.o {
+    margin-bottom: 10px;
+}
+
+#r {
+    color: white;
+    background-color: rgb(174, 84, 230);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.n:hover {
+    background-color: rgba(240, 229, 249, 0.897);
+}
+
+.e:hover {
+    background-color: rgba(240, 229, 249, 0.897);
+}
+
+.p:hover {
+    background-color: rgba(240, 229, 249, 0.897);
+}
+
+.no:hover {
+    background-color: rgba(240, 229, 249, 0.897);
+}
+
+.s:hover {
+    background-color: rgba(240, 229, 249, 0.897);
+}
+
+#r:hover {
+    transition: linear;
+    transition-duration: 200ms;
+    transition-property: all;
+    transform-style: preserve-3d;
+    background-color: rgb(198, 146, 230);
+}

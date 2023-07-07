@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form action="">
+        <section class="x">
+            <h1 id="rf">REGISTRATION FORM</h1>
+
+            <div>
+                Name : <input class="n" type="text" placeholder="your name" required><br>
+                Email : <input class="e" type="email" name="emailid" id="emailid" placeholder="your email" required><br>
+                Password : <input class="p" type="password" name="password" id="p" placeholder="your password"
+                    required><br>
+                Number : <input class="no" type="number" name="number" id="no" placeholder="your number" required><br>
+                <label for="male">
+                    Gender : <input class="m" type="radio" name="gender" id="male" required> MALE
+                </label>
+                <label for="female">
+                    <input class="f" type="radio" name="gender" id="female" required> FEMALE
+                </label>
+                <label for="other">
+                    <input class="o" type="radio" name="gender" id="other" required> OTHER
+                </label><br>
+                <select class="s" name="stream" id="stream" required>
+                    <option value="Stream">~STREAM~</option>
+                    <option value="IT">IT</option>
+                    <option value="CSE">CSE</option>
+                    <option value="OTHER">OTHER</option>
+                </select><br>
+                <input id="r" type="submit" value="Register">
+        </section>
+    </form>
+    </div>
+
+</body>
+
+</html>
