@@ -4,14 +4,19 @@
 }
 
 body {
-    background-color: rgb(174, 84, 230);
+    background-image: url(https://images.freeimages.com/images/previews/293/clouds-1188616.jpg);
+    background-size: 100%;
+    background-position: -500;
 }
-
+.f1{
+    color: white;
+}
 .x {
-    background-color: white;
+    columns: white;
+    background-color:rgba(89, 41, 155, 0.525);
     height: fit-content;
     width: fit-content;
-    border: 2px solid black;
+    border: 1px solid black;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: auto;
